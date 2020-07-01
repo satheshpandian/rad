@@ -4,7 +4,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Please run 2 different command prompts to run both api (faker) and angular UI
+
+Api can be enabled by "npm run generate" then "npm run server" please refer package.json file
+
+For angular redirect to localhost:4000/claims
 
 ## Code scaffolding
 
