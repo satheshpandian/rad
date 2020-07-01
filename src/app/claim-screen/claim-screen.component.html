@@ -1,0 +1,6 @@
+<div class="container" *ngIf="claimsLoaded">
+    <div class="title claim">{{claim.amount}} {{claim.prize}}<br>
+        on {{claim.game}}</div>
+        <div class="timer">00:{{claim.countdown}}</div>
+        <button mat-raised-button class="box pink" routerLink="/success">Claim now</button>
+    </div>
